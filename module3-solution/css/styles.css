@@ -1,0 +1,39 @@
+#header-nav
+{
+	background-color: #7BB7CD;
+	border-radius: 0;
+	border: 0;
+	padding: 10px; 
+}
+.navbar-brand 
+{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-brand h1
+{
+	font-size: 50px;
+	color: black;
+}
+#main-heading
+{
+	margin: 15px;
+}
+#main-text
+{
+	background-color: #7BB7CD;
+	padding: 15px;
+	width: 100%;
+}
+@media (max-width: 767px)
+{
+	.navbar-brand h1
+	{
+		font-size: 7vw;
+	}
+	.navbar-collapse
+	{
+		background-color: red;
+		color: white;
+	}
+}
